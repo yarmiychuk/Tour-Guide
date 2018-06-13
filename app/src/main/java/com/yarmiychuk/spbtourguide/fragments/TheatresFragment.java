@@ -37,7 +37,11 @@ public class TheatresFragment extends Fragment {
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.category_theatre));
 
         ArrayList<Sight> sights = new ArrayList<>();
-        sights.add(new Sight("", R.mipmap.ic_launcher, "", ""));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
 
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_THEATRES);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());

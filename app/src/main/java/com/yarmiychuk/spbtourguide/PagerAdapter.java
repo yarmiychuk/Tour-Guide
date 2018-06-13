@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.yarmiychuk.spbtourguide.fragments.MuseumsFragment;
 import com.yarmiychuk.spbtourguide.fragments.ParksFragment;
 import com.yarmiychuk.spbtourguide.fragments.TheatresFragment;
-import com.yarmiychuk.spbtourguide.fragments.UnknownFragment;
+import com.yarmiychuk.spbtourguide.fragments.SportsFragment;
 
 /**
  * Created by DmitryYarmiychuk on 13.06.2018.
@@ -34,8 +34,8 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return new TheatresFragment();
             case MainActivity.CATEGORY_PARKS:
                 return new ParksFragment();
-            case MainActivity.CATEGORY_UNKNOWN:
-                return new UnknownFragment();
+            case MainActivity.CATEGORY_SPORTS:
+                return new SportsFragment();
         }
 
     }
@@ -51,8 +51,8 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 return context.getString(R.string.category_theatres);
             case MainActivity.CATEGORY_PARKS:
                 return context.getString(R.string.category_parks);
-            case MainActivity.CATEGORY_UNKNOWN:
-                return context.getString(R.string.category_unknown);
+            case MainActivity.CATEGORY_SPORTS:
+                return context.getString(R.string.category_sports);
         }
     }
 

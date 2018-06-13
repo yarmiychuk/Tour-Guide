@@ -21,10 +21,10 @@ import java.util.ArrayList;
  * Создал DmitryYarmiychuk 13.06.2018
  */
 
-public class UnknownFragment extends Fragment {
+public class SportsFragment extends Fragment {
 
     // Required default constructor
-    public UnknownFragment() {
+    public SportsFragment() {
 
     }
 
@@ -37,9 +37,13 @@ public class UnknownFragment extends Fragment {
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.category_unknown));
 
         ArrayList<Sight> sights = new ArrayList<>();
-        sights.add(new Sight("", R.mipmap.ic_launcher, "", ""));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
 
-        RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_UNKNOWN);
+        RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_SPORTS);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         RecyclerView rvItemsList = rootView.findViewById(R.id.rv_items);
         rvItemsList.setLayoutManager(layoutManager);
