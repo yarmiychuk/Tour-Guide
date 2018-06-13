@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">SPb tour guide</string>
+
+    <!-- Category -->
+    <string name="category_museums">Museums</string>
+    <string name="category_theatres">Theatres</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_unknown">Unknown</string>
+
+    <string name="sight_image">Sight image</string>
+</resources>
