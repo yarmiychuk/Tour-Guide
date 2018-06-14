@@ -34,15 +34,19 @@ public class TheatresFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.items_list, container, false);
-        rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.category_theatre));
+        rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_theatres));
 
         ArrayList<Sight> sights = new ArrayList<>();
         sights.add(new Sight(getString(R.string.mikhailovsky_name), R.drawable.mikhailovsky,
                 getString(R.string.mikhailovsky_description), getString(R.string.mikhailovsky_link)));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight(getString(R.string.mariinsky_name), R.drawable.mariinsky,
+                getString(R.string.mariinsky_description), getString(R.string.mariinsky_link)));
+        sights.add(new Sight(getString(R.string.bdt_name), R.drawable.bdt,
+                getString(R.string.bdt_description), getString(R.string.bdt_link)));
+        sights.add(new Sight(getString(R.string.philharmonic_name), R.drawable.philharmonic,
+                getString(R.string.philharmonic_description), getString(R.string.philharmonic_link)));
+        sights.add(new Sight(getString(R.string.tyz_name), R.drawable.tyz,
+                getString(R.string.tyz_description), getString(R.string.tyz_link)));
 
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_THEATRES);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());

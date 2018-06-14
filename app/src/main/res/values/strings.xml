@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">SPb tour guide</string>
+    <string name="app_name">SPb Tour Guide</string>
 
     <!-- Category -->
     <string name="category_museums">Museums</string>
@@ -15,6 +15,20 @@
     <string name="mikhailovsky_name">Mikhailovsky Theatre</string>
     <string name="mikhailovsky_description">In 2001, the Mikhailovsky Theatre reclaimed its historic name, and in 2007, it was recognized as St. Petersburg\’s most prestigious musical theatre. Today, while preserving Russia\’s centuries-old musical theatre traditions, the Mikhailovsky Theatre is constantly pushing to be at the forefront of contemporary world theatre. The renovated luxury of the entrance hall and auditorium enables theatre lovers to pass their time in comfort.</string>
     <string name="mikhailovsky_link">https://mikhailovsky.ru/en/</string>
-
-
+    <!-- Mariinsky -->
+    <string name="mariinsky_name">Mariinsky Theatre</string>
+    <string name="mariinsky_description">The Mariinsky Theatre is a historic theatre of opera and ballet in Saint Petersburg, Russia. Opened in 1860, it became the preeminent music theatre of late 19th-century Russia, where many of the stage masterpieces of Tchaikovsky, Mussorgsky, and Rimsky-Korsakov received their premieres. Through most of the Soviet era, it was known as the Kirov Theatre. Today, the Mariinsky Theatre is home to the Mariinsky Ballet, Mariinsky Opera and Mariinsky Orchestra. Since Yuri Temirkanov\'s retirement in 1988, the conductor Valery Gergiev has served as the theatre\'s general director.</string>
+    <string name="mariinsky_link">https://www.mariinsky.ru/en/</string>
+    <!-- BDT -->
+    <string name="bdt_name">Bolshoi Drama Theatre</string>
+    <string name="bdt_description">Tovstonogov Bolshoi Drama Theatre, formerly known as Gorky Bolshoi Drama Theatre (1931–1992), often referred to as the Bolshoi Drama Theatre and by the acronym BDT, is a theatre in Saint Petersburg, that is considered one of the best Russian theatres. The theatre is named after its long-time director Georgy Tovstonogov. Since 2013, Andrey Moguchy is the artistic director of the theatre.</string>
+    <string name="bdt_link">https://bdt.spb.ru/</string>
+    <!-- Philharmonic Hall -->
+    <string name="philharmonic_name">Philharmonic Hall</string>
+    <string name="philharmonic_description">The St. Petersburg Philharmonia, the oldest Philharmonia in Russia, is more than two hundred years old. Its history goes back to 1802 when the St. Petersburg Philharmonic Society, the first one in Europe, was created. It organized the world premiere of Beethoven\'s Missa Solemnis in 1824.</string>
+    <string name="philharmonic_link">http://www.philharmonia.spb.ru/en/</string>
+    <!-- TYZ -->
+    <string name="tyz_name">The Youth Theatre </string>
+    <string name="tyz_description">The A. Bryantsev Youth Theatre (also spelled State Theater For Young Audience Named After A. A. Bryantsev or Bryantsev Young Viewers Theater) is one of the first professional children\'s theatres in Russia, opened in 1922. In Soviet time the theatre was called Leningrad Young People\'s Theatre. In 1962 it was moved to the current newly constructed building. The theatre is in Saint Petersburg, on the Pionerskaya Square near the end of Gorokhovaya Street.</string>
+    <string name="tyz_link">http://www.tyuz-spb.ru/</string>
 </resources>

@@ -34,7 +34,7 @@ public class MuseumsFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.items_list, container, false);
-        rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.category_museum));
+        rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_museums));
 
         ArrayList<Sight> sights = new ArrayList<>();
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));

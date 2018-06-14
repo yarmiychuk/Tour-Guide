@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#2196F3</color>
 
     <color name="tab_unselected_text">#BDBDBD</color>
+    <color name="color_light_gray">#78909C</color>
 
-    <color name="category_museum">#BBDEFB</color>
-    <color name="category_theatre">#FFE0B2</color>
-    <color name="category_park">#DCEDC8</color>
-    <color name="category_unknown">#FFCCBC</color>
-
-    <color name="color_museums">#0D47A1</color>
+    <color name="color_museums">#3700B3</color>
     <color name="color_theatres">#E65100</color>
     <color name="color_parks">#33691E</color>
     <color name="color_sports">#BF360C</color>
