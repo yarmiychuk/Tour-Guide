@@ -3,12 +3,34 @@
     <string name="app_name">SPb Tour Guide</string>
 
     <!-- Category -->
-    <string name="category_museums">Museums</string>
-    <string name="category_theatres">Theatres</string>
-    <string name="category_parks">Parks</string>
-    <string name="category_sports">Sports</string>
+    <string name="category_museums">MUSEUMS</string>
+    <string name="category_theatres">THEATRES</string>
+    <string name="category_parks">PARKS</string>
+    <string name="category_sports">SPORTS</string>
 
     <string name="sight_image">Sight image</string>
+
+    <!-- MUSEUMS -->
+    <!-- Hermitage -->
+    <string name="hermitage_name">Hermitage</string>
+    <string name="hermitage_description">The State Hermitage Museum is a museum of art and culture in Saint Petersburg, Russia. The second-largest in the world, it was founded in 1764 when Empress Catherine the Great acquired an impressive collection of paintings from the Berlin merchant Johann Ernst Gotzkowsky. The museum celebrates the anniversary of its founding each year on 7 December, Saint Catherine\'s Day. It has been open to the public since 1852.</string>
+    <string name="hermitage_link">https://www.hermitagemuseum.org/</string>
+    <!-- Russian museum -->
+    <string name="russian_name">Russian Museum</string>
+    <string name="russian_description">The State Russian Museum, formerly the Russian Museum of His Imperial Majesty Alexander III, is the largest depository of Russian fine art in Saint Petersburg. It is also one of the largest museums in the country. The museum was established on April 13, 1895, upon enthronement of Nicholas II to commemorate his father, Alexander III. Its original collection was composed of artworks taken from the Hermitage Museum, Alexander Palace, and the Imperial Academy of Arts. After the Russian Revolution of 1917, many private collections were nationalized and relocated to the Russian Museum. These included Kazimir Malevich\'s Black Square.</string>
+    <string name="russian_link">http://en.rusmuseum.ru/</string>
+    <!-- Erarta -->
+    <string name="erarta_name">Erarta</string>
+    <string name="erarta_description">Erarta is the largest private museum of contemporary art in Russia. In the museum, visitors are welcome to book guided tours, individual or group ones. They may also rent an audio-guide at the registration desk on first floor. There are special themes and gaming excursions for schoolchildren. On 30 June 2015, the collection of Erarta Museum of Contemporary Art became digitally available via the Google Cultural Institute\’s Art Project.</string>
+    <string name="erarta_link">https://www.erarta.com/en/</string>
+    <!-- Isaak's -->
+    <string name="isaak_name">Saint Isaac\'s Cathedral</string>
+    <string name="isaak_description">Saint Isaac\'s Cathedral or Isaakievskiy Sobor is the largest Russian Orthodox cathedral (sobor) in the city. It is the largest orthodox basilica and the fourth largest (by the volume under the cupola) cathedral in the world. It is dedicated to Saint Isaac of Dalmatia, a patron saint of Peter the Great, who had been born on the feast day of that saint.</string>
+    <string name="isaak_link">http://eng.cathedral.ru/</string>
+    <!-- Peter & Pavel -->
+    <string name="fortress_name">Peter and Paul Fortress</string>
+    <string name="fortress_description">The Peter and Paul Fortress is the original citadel of St. Petersburg, Russia, founded by Peter the Great in 1703 and built to Domenico Trezzini\'s designs from 1706 to 1740 as a star fortress. In the early 1920s, it was still used as a prison and execution ground by the Bolshevik government. Today it has been adapted as the central and most important part of the State Museum of Saint Petersburg History. The museum has gradually become virtually the sole owner of the fortress building, except the structure occupied by the Saint Petersburg Mint (Monetniy Dvor).</string>
+    <string name="fortress_link">http://www.spbmuseum.ru/themuseum/museum_complex/peterpaul_fortress/?lang_ui=en</string>
 
     <!-- THEATRES -->
     <!-- Mikhailovsky -->

@@ -37,11 +37,16 @@ public class MuseumsFragment extends Fragment {
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_museums));
 
         ArrayList<Sight> sights = new ArrayList<>();
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight(getString(R.string.hermitage_name), R.drawable.hermitage,
+                getString(R.string.hermitage_description), getString(R.string.hermitage_link)));
+        sights.add(new Sight(getString(R.string.russian_name), R.drawable.rusmuseum,
+                getString(R.string.russian_description), getString(R.string.russian_link)));
+        sights.add(new Sight(getString(R.string.erarta_name), R.drawable.erarta,
+                getString(R.string.erarta_description), getString(R.string.erarta_link)));
+        sights.add(new Sight(getString(R.string.isaak_name), R.drawable.isaak,
+                getString(R.string.isaak_description), getString(R.string.isaak_link)));
+        sights.add(new Sight(getString(R.string.fortress_name), R.drawable.fortress,
+                getString(R.string.fortress_description), getString(R.string.fortress_link)));
 
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_MUSEUMS);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
