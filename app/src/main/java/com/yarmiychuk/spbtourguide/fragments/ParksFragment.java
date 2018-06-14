@@ -37,11 +37,16 @@ public class ParksFragment extends Fragment {
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_parks));
 
         ArrayList<Sight> sights = new ArrayList<>();
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight(getString(R.string.summer_name), R.drawable.summer,
+                getString(R.string.summer_description), getString(R.string.summer_link)));
+        sights.add(new Sight(getString(R.string.peterhof_name), R.drawable.peterhof,
+                getString(R.string.peterhof_description), getString(R.string.peterhof_link)));
+        sights.add(new Sight(getString(R.string.tzar_name), R.drawable.selo,
+                getString(R.string.tzar_description), getString(R.string.tzar_link)));
+        sights.add(new Sight(getString(R.string.pavlovsk_name), R.drawable.pavlovsk,
+                getString(R.string.pavlovsk_description), getString(R.string.pavlovsk_link)));
+        sights.add(new Sight(getString(R.string.gatchina_name), R.drawable.gatchina,
+                getString(R.string.gatchina_description), getString(R.string.gatchina_link)));
 
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_PARKS);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());

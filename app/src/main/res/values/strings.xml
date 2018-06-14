@@ -53,4 +53,26 @@
     <string name="tyz_name">The Youth Theatre </string>
     <string name="tyz_description">The A. Bryantsev Youth Theatre (also spelled State Theater For Young Audience Named After A. A. Bryantsev or Bryantsev Young Viewers Theater) is one of the first professional children\'s theatres in Russia, opened in 1922. In Soviet time the theatre was called Leningrad Young People\'s Theatre. In 1962 it was moved to the current newly constructed building. The theatre is in Saint Petersburg, on the Pionerskaya Square near the end of Gorokhovaya Street.</string>
     <string name="tyz_link">http://www.tyuz-spb.ru/</string>
+
+    <!-- Parks -->
+    <!-- Summer Garden -->
+    <string name="summer_name">Summer Garden</string>
+    <string name="summer_description">The Summer Garden occupies an island between the Fontanka, Moika, and the Swan Canal and shares its name with the adjacent Summer Palace of Peter the Great. The park was personally designed by Czar Peter in 1704, supposedly, with the assistance of the Dutch gardener and physician Nicolaas Bidloo. Starting from 1712, the planting of the Summer Garden was further elaborated by the Dutch gardener Jan Roosen, who was the chief gardener of the park till 1726. The well-known French architect Jean-Baptiste Le Blond, who arrived in St. Petersburg in 1716, added to the park the flavour of a Garden à la française. The Summer Garden was largely completed in 1719. The walks were lined with a hundred allegorical marble sculptures, executed by Francesco Penso, Pietro Baratta, Marino Gropelli, Alvise Tagliapietra, Bartolomeo Modulo and other Venetian sculptors that were acquired by Sava Vladislavich.</string>
+    <string name="summer_link">http://en.rusmuseum.ru/summer-garden/history/</string>
+    <!-- Peterhof -->
+    <string name="peterhof_name">Peterhof</string>
+    <string name="peterhof_description">After 200 years of serving as a grand summer residence of the emperors, Peterhof is inextricably connected with the Russian history. The seaside paradise was built, as a grandiose triumphal memorial glorifying the grandeur of Russia, in conquering the much needed and desired access to the Baltic Sea, during the Great Northern War. Building date: 1714&#8211;1723. Architects: I. Braunstein, J.B. Le Blond, N. Miketti, F. Rastrelli, A.N. Voronikhin, A.I. Stackenschneider, L. Harnigfelt, А. Borisov, B. Fok, Т. Timofeev.</string>
+    <string name="peterhof_link">https://en.peterhofmuseum.ru/</string>
+    <!-- Tzar -->
+    <string name="tzar_name">The Tsarskoe Selo</string>
+    <string name="tzar_description">Tsarskoye Selo (\"Tsar\'s Village\") was the town containing a former Russian residence of the imperial family and visiting nobility, located 24 kilometers (15 mi) south from the center of Saint Petersburg. Tsarskoye Selo forms one of the World Heritage Site Saint Petersburg and Related Groups of Monuments. In the 17th century, the estate belonged to a Swedish noble. Max Vasmer, on the other hand, derives this toponym from the Finnish word for island, "\saari\": "\Saaren kylä\" = "\Island village\". By the 18th-century at the latest, it was called "\Tsarskoye Selo\". In 1708, Peter the Great gave the estate to his wife, the future Empress Catherine I, as a present.</string>
+    <string name="tzar_link">http://eng.tzar.ru/</string>
+    <!-- Pavlovsk -->
+    <string name="pavlovsk_name">Pavlovsk</string>
+    <string name="pavlovsk_description">Among the palace-and-park ensembles encircling Petersburg in a green belt, the Pavlovsk complex of landscape combined with architecture was the latest to come into being. This is an outstanding landmark of the Russian culture of the late 18th - early 19th century. Work commenced on the grounds in 1777 to implement the project of a country house for Grand Duke Paul, the son of Catherine II, who was later crowned as Emperor Paul I. Outstanding architects, sculptors and artists were commissioned to lay out a huge park covering about 600 hectares and build the Palace and park structures. Their concepts were brought to life by landscape architects, gardeners and hundreds of workmen and peasants from local villages.</string>
+    <string name="pavlovsk_link">http://en.pavlovskmuseum.ru/</string>
+    <!-- Gatchina -->
+    <string name="gatchina_name">Gatchina</string>
+    <string name="gatchina_description">The Gatchina Palace and park is one of Russia\’s outstanding ensembles. With its own unique identity, it is just another gem in the ring of imperial suburban palaces around St Petersburg. The Gatchina parks are famous not only for its architectural and historical structures, but also for its unparalleled natural beauty. The variety of animals and plants here is amazing. The most common animals living in the park are squirrels, moles, field mice, bats and water birds.</string>
+    <string name="gatchina_link">http://gatchinapalace.ru/en/</string>
 </resources>
