@@ -37,7 +37,8 @@ public class TheatresFragment extends Fragment {
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.category_theatre));
 
         ArrayList<Sight> sights = new ArrayList<>();
-        sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
+        sights.add(new Sight(getString(R.string.mikhailovsky_name), R.drawable.mikhailovsky,
+                getString(R.string.mikhailovsky_description), getString(R.string.mikhailovsky_link)));
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));

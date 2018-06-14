@@ -9,4 +9,12 @@
     <string name="category_sports">Sports</string>
 
     <string name="sight_image">Sight image</string>
+
+    <!-- THEATRES -->
+    <!-- Mikhailovsky -->
+    <string name="mikhailovsky_name">Mikhailovsky Theatre</string>
+    <string name="mikhailovsky_description">In 2001, the Mikhailovsky Theatre reclaimed its historic name, and in 2007, it was recognized as St. Petersburg\’s most prestigious musical theatre. Today, while preserving Russia\’s centuries-old musical theatre traditions, the Mikhailovsky Theatre is constantly pushing to be at the forefront of contemporary world theatre. The renovated luxury of the entrance hall and auditorium enables theatre lovers to pass their time in comfort.</string>
+    <string name="mikhailovsky_link">https://mikhailovsky.ru/en/</string>
+
+
 </resources>

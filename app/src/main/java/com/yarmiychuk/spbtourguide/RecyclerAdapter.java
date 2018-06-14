@@ -1,6 +1,7 @@
 package com.yarmiychuk.spbtourguide;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,14 +19,28 @@ import java.util.ArrayList;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
-    private Context context;
     private ArrayList<Sight> sights;
-    private int category;
+    private int color;
 
     public RecyclerAdapter(Context context, ArrayList<Sight> sights, int category) {
-        this.context = context;
         this.sights = sights;
-        this.category = category;
+        switch (category) {
+            case MainActivity.CATEGORY_MUSEUMS:
+                color = ContextCompat.getColor(context, R.color.color_museums);
+                break;
+            case MainActivity.CATEGORY_THEATRES:
+                color = ContextCompat.getColor(context, R.color.color_theatres);
+                break;
+            case MainActivity.CATEGORY_PARKS:
+                color = ContextCompat.getColor(context, R.color.color_parks);
+                break;
+            case MainActivity.CATEGORY_SPORTS:
+                color = ContextCompat.getColor(context, R.color.color_sports);
+                break;
+            default:
+                color = ContextCompat.getColor(context, R.color.color_unknown);
+                break;
+        }
     }
 
     // Create new views
@@ -46,9 +61,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.tvSightName.setText(sights.get(position).getSightName());
+        holder.tvSightName.setTextColor(color);
         holder.ivPicture.setImageResource(sights.get(position).getImageResourceId());
         holder.tvSightDescription.setText(sights.get(position).getDescription());
         holder.tvSightLink.setText(sights.get(position).getLink());
+        holder.tvSightLink.setLinkTextColor(color);
     }
 
     @Override
