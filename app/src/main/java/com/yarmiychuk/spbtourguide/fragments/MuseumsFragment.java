@@ -36,6 +36,7 @@ public class MuseumsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_museums));
 
+        // ArrayList of sights in the category Museums
         ArrayList<Sight> sights = new ArrayList<>();
         sights.add(new Sight(getString(R.string.hermitage_name), R.drawable.hermitage,
                 getString(R.string.hermitage_description), getString(R.string.hermitage_link)));
@@ -48,6 +49,7 @@ public class MuseumsFragment extends Fragment {
         sights.add(new Sight(getString(R.string.fortress_name), R.drawable.fortress,
                 getString(R.string.fortress_description), getString(R.string.fortress_link)));
 
+        // RecyclerView, Adapter, Manager
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_MUSEUMS);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         RecyclerView rvItemsList = rootView.findViewById(R.id.rv_items);

@@ -7,4 +7,9 @@
     <dimen name="standard_padding">16dp</dimen>
     <dimen name="card_view_elements_size">5dp</dimen>
 
+    <dimen name="min_text_view_height">40dp</dimen>
+    <dimen name="text_size_sight_name">18sp</dimen>
+    <dimen name="text_size_sight_description">16sp</dimen>
+    <dimen name="text_size_sight_link">14sp</dimen>
+
 </resources>

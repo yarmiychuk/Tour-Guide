@@ -17,19 +17,19 @@ public class Sight {
         this.link = link;
     }
 
-    public String getSightName() {
+    String getSightName() {
         return sightName;
     }
 
-    public int getImageResourceId() {
+    int getImageResourceId() {
         return imageResourceId;
     }
 
-    public String getDescription() {
+    String getDescription() {
         return description;
     }
 
-    public String getLink() {
+    String getLink() {
         return link;
     }
 }

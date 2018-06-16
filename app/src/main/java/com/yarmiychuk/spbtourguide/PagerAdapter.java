@@ -19,11 +19,22 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
 
+    /**
+     * Constructor of adapter
+     *
+     * @param context         - Activity
+     * @param fragmentManager - Fragment Manager
+     */
     PagerAdapter(Context context, FragmentManager fragmentManager) {
         super(fragmentManager);
         this.context = context;
     }
 
+    /**
+     * Get Fragment fo current position
+     * @param position of fragment in adapter
+     * @return fragment
+     */
     @Override
     public Fragment getItem(int position) {
         switch (position) {
@@ -40,6 +51,11 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
     }
 
+    /**
+     * Get title for current fragment
+     * @param position of fragment in adapter
+     * @return title
+     */
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
@@ -56,6 +72,10 @@ public class PagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * Get count of fragments
+     * @return count
+     */
     @Override
     public int getCount() {
         return MainActivity.TOTAL_CATEGORIES;

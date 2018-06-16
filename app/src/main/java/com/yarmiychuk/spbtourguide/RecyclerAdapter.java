@@ -22,6 +22,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     private ArrayList<Sight> sights;
     private int color;
 
+    /**
+     * Constructor of adapter
+     *
+     * @param context  - Activity
+     * @param sights   - List of sight fo current category
+     * @param category - current category
+     */
     public RecyclerAdapter(Context context, ArrayList<Sight> sights, int category) {
         this.sights = sights;
         switch (category) {
@@ -53,10 +60,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     }
 
     /**
-     * TODO Fill view with sight data
+     * Fill view with sight data
      *
-     * @param holder
-     * @param position
+     * @param holder - ViewHolder to filling
+     * @param position - current position of ViewHolder in adapter
      */
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
@@ -73,6 +80,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         return sights.size();
     }
 
+    /**
+     * ViewHolder for this adapter
+     */
     static class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvSightName, tvSightDescription, tvSightLink;

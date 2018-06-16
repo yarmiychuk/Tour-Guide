@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">SPb Tour Guide</string>
+    <string name="full_app_name">St.Petersburg Tour Guide</string>
 
     <!-- Category -->
     <string name="category_museums">MUSEUMS</string>
@@ -8,6 +9,7 @@
     <string name="category_parks">PARKS</string>
     <string name="category_other">OTHER</string>
 
+    <!-- Content description -->
     <string name="sight_image">Sight image</string>
 
     <!-- MUSEUMS -->
@@ -77,5 +79,24 @@
     <string name="gatchina_link">http://gatchinapalace.ru/en/</string>
 
     <!-- Other -->
-
+    <!-- Oceanarium -->
+    <string name="oceanarium_name">Oceanarium</string>
+    <string name="oceanarium_description">Oceanarium Display occupies an area of about 5000 square meters, where 33 tanks of total capacity over 1.5 million liters of water are located. The largest tank contains about 750 thousand liters of water, the smallest one contains 300 liters. The Oceanarium displays the live collection that contains over 4.5 thousand specimens of fishes, aquatic invertebrates and sea mammals covering almost 150 species. In various sections of display visitors have an opportunity to see exotic inhabitants of fresh and salt waters, visit sharks and seals and plunge into the fabulous world of coral reefs.</string>
+    <string name="oceanarium_link">http://www.planeta-neptun.ru/ocean/?lang=eng</string>
+    <!-- Botanical Garden -->
+    <string name="botanical_name">Botanical Garden</string>
+    <string name="botanical_description">The Saint Petersburg Botanical Garden, also known as the Botanic Gardens of the Komarov Botanical Institute or the Komarov Botanical Garden, is the oldest botanical garden in Russia. It consists of outdoor and indoor collections situated on Aptekarsky Island in Saint Petersburg and belongs to the Komarov Botanical Institute of the Russian Academy of Sciences. It is 18.9 ha in area, and is bordered by Aptekarsky Prospekt (main entrance), Prof. Popov Street (second entrance), as well as the embankments of the Karpovka and Bolshaya Neva rivers. The garden was founded by Peter I in 1714 as a herb garden in order to grow medicinal plants and re-established as a botanical institution under the name Imperial Botanical Garden in 1823.</string>
+    <string name="botanical_link">http://botsad-spb.com/</string>
+    <!-- Zoo -->
+    <string name="zoo_name">Zoopark</string>
+    <string name="zoo_description">Lenindgrad Zoo is a unique museum of wildlife in the heart of St. Petersburg. Today it houses more than 600 species of mammals, birds, fish, and invertebrates from various places on Earth. It is an educational environmental institution which allows you within the city boundaries to learn about the planet\'s biological diversity, expand your biological, zoological, ecological horizons, and, of course, spend some great quality time here!</string>
+    <string name="zoo_link">http://spbzoo.ru/en/</string>
+    <!-- Attractions -->
+    <string name="attractions_name">Divo Ostrov</string>
+    <string name="attractions_description">The amusement park "Divo Ostrov" was opened in May 2003 and totaled 17 attractions. For the first month after the opening, the park was visited by 1 million people. During the time the park has repeatedly received various awards: in 2004 - "Crystal Wheel" as the best amusement park in Russia, in 2006 won the national prize "Company of the Year" in the nomination "Industry Leader". Now the park has 46 attractions.</string>
+    <string name="attractions__link">https://www.divo-ostrov.ru/</string>
+    <!-- Bridges -->
+    <string name="bridges_name">Drawbriges</string>
+    <string name="bridges_description">St. Petersburg is popularly called in different ways: the city on the Neva, the Window to Europe, the North Venice, the Child of Peter, the North Palmyra or the museum of bridges that are under the open sky. The main attraction of this wonderful city are bridges, which number about 800 kinds, 13 of them are floating (as of 2008) and each bridge has its own interesting history. Bridges are raised during the navigation period - from the end of April to the middle of November.</string>
+    <string name="bridges_link">http://vivaspb.com/visit/mosty/1243-razvodnye-mosty-sankt-peterburga.html</string>
 </resources>

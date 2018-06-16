@@ -36,6 +36,7 @@ public class ParksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_parks));
 
+        // ArrayList of sights in the category Parks
         ArrayList<Sight> sights = new ArrayList<>();
         sights.add(new Sight(getString(R.string.summer_name), R.drawable.summer,
                 getString(R.string.summer_description), getString(R.string.summer_link)));
@@ -48,6 +49,7 @@ public class ParksFragment extends Fragment {
         sights.add(new Sight(getString(R.string.gatchina_name), R.drawable.gatchina,
                 getString(R.string.gatchina_description), getString(R.string.gatchina_link)));
 
+        // RecyclerView, Adapter, Manager
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_PARKS);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         RecyclerView rvItemsList = rootView.findViewById(R.id.rv_items);

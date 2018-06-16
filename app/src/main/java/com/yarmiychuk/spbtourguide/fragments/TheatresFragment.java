@@ -36,6 +36,7 @@ public class TheatresFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.color_theatres));
 
+        // ArrayList of sights in the category Theatres
         ArrayList<Sight> sights = new ArrayList<>();
         sights.add(new Sight(getString(R.string.mikhailovsky_name), R.drawable.mikhailovsky,
                 getString(R.string.mikhailovsky_description), getString(R.string.mikhailovsky_link)));
@@ -48,6 +49,7 @@ public class TheatresFragment extends Fragment {
         sights.add(new Sight(getString(R.string.tyz_name), R.drawable.tyz,
                 getString(R.string.tyz_description), getString(R.string.tyz_link)));
 
+        // RecyclerView, Adapter, Manager
         RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_THEATRES);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         RecyclerView rvItemsList = rootView.findViewById(R.id.rv_items);

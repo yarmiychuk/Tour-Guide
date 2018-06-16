@@ -21,14 +21,12 @@
 
             <TextView
                 android:id="@+id/tv_sight_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:layout_marginBottom="@dimen/small_margin"
-                android:gravity="center"
-                android:minHeight="40dp"
-                android:textSize="18sp"
+                android:minHeight="@dimen/min_text_view_height"
+                android:textSize="@dimen/text_size_sight_name"
                 android:textStyle="bold"
-                tools:text="Название" />
+                tools:text="Name of sight" />
 
             <ImageView
                 android:id="@+id/iv_sight_image"
@@ -42,22 +40,19 @@
 
             <TextView
                 android:id="@+id/tv_sight_description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:layout_marginTop="@dimen/small_margin"
-                android:gravity="center"
-                android:minHeight="40dp"
-                android:textSize="16sp"
-                tools:text="Описание" />
+                android:minHeight="@dimen/min_text_view_height"
+                android:textSize="@dimen/text_size_sight_description"
+                tools:text="Description of sight" />
 
             <TextView
                 android:id="@+id/tv_sight_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:autoLink="web"
                 android:gravity="end"
-                android:textSize="14sp"
-                tools:text="Ссылка на сайт" />
+                android:textSize="@dimen/text_size_sight_link"
+                tools:text="Link to site about sight" />
 
         </LinearLayout>
 
