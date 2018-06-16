@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int CATEGORY_MUSEUMS = 0;
     public static final int CATEGORY_THEATRES = 1;
     public static final int CATEGORY_PARKS = 2;
-    public static final int CATEGORY_SPORTS = 3;
+    public static final int CATEGORY_OTHER = 3;
     public static final int TOTAL_CATEGORIES = 4;
 
     @Override

@@ -34,7 +34,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             case MainActivity.CATEGORY_PARKS:
                 color = ContextCompat.getColor(context, R.color.color_parks);
                 break;
-            case MainActivity.CATEGORY_SPORTS:
+            case MainActivity.CATEGORY_OTHER:
                 color = ContextCompat.getColor(context, R.color.color_sports);
                 break;
             default:

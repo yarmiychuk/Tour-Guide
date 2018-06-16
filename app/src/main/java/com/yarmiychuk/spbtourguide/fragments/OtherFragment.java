@@ -21,10 +21,10 @@ import java.util.ArrayList;
  * Создал DmitryYarmiychuk 13.06.2018
  */
 
-public class SportsFragment extends Fragment {
+public class OtherFragment extends Fragment {
 
     // Required default constructor
-    public SportsFragment() {
+    public OtherFragment() {
 
     }
 
@@ -43,7 +43,7 @@ public class SportsFragment extends Fragment {
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
         sights.add(new Sight("Название", R.mipmap.ic_launcher, "Описание", "Ссылка на сайт"));
 
-        RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_SPORTS);
+        RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), sights, MainActivity.CATEGORY_OTHER);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         RecyclerView rvItemsList = rootView.findViewById(R.id.rv_items);
         rvItemsList.setLayoutManager(layoutManager);

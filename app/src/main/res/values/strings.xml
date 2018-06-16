@@ -6,7 +6,7 @@
     <string name="category_museums">MUSEUMS</string>
     <string name="category_theatres">THEATRES</string>
     <string name="category_parks">PARKS</string>
-    <string name="category_sports">SPORTS</string>
+    <string name="category_other">OTHER</string>
 
     <string name="sight_image">Sight image</string>
 
@@ -75,4 +75,7 @@
     <string name="gatchina_name">Gatchina</string>
     <string name="gatchina_description">The Gatchina Palace and park is one of Russia\’s outstanding ensembles. With its own unique identity, it is just another gem in the ring of imperial suburban palaces around St Petersburg. The Gatchina parks are famous not only for its architectural and historical structures, but also for its unparalleled natural beauty. The variety of animals and plants here is amazing. The most common animals living in the park are squirrels, moles, field mice, bats and water birds.</string>
     <string name="gatchina_link">http://gatchinapalace.ru/en/</string>
+
+    <!-- Other -->
+
 </resources>
